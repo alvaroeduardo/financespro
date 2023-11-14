@@ -1,0 +1,23 @@
+{
+  "name": "fp-backend",
+  "version": "1.0.0",
+  "description": "Back-End aplicação de gestão financeira e gestão de atividades.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "author": "Álvaro Eduardo Silva",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^8.4.1",
+    "@prisma/client": "^5.5.2",
+    "fastify": "^4.24.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "prisma": "^5.5.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}

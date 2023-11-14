@@ -1,0 +1,23 @@
+# @name Busca-todas-as-transacoes
+
+GET http://localhost:3333/api/v1/transacao
+
+###
+
+# @name Busca-uma-transacao-especifica
+
+GET http://localhost:3333/api/v1/transacao/1
+
+###
+
+# @name Insere-uma-nova-transacao
+
+POST http://localhost:3333/api/v1/transacao
+Content-Type: application/json
+
+{
+    "tipoTransacao":"Receita",
+    "valor":1285.98,
+    "categoria":"Escritura",
+    "dataTransacao": 
+}
